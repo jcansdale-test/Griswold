@@ -4,8 +4,7 @@
 name: Publish built jar
 
 on:
-  release:
-    types: [created]
+  push:
 
 jobs:
   build:

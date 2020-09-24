@@ -14,6 +14,13 @@
         <CitizensApiVersion>2.0.16-SNAPSHOT</CitizensApiVersion>
     </properties>
 
+    <distributionManagement>
+       <repository>
+         <id>github</id>
+         <url>https://maven.pkg.github.com/jcansdale-test/Griswold</url>
+       </repository>
+    </distributionManagement>
+
     <repositories>
         <repository>
             <id>spigot-repo</id>
